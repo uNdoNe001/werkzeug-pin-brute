@@ -1,3 +1,5 @@
+Run from inside rev shell or ssh on server - that will bypass werkzeug's lockout for 10 failed attempts
+
 Usage: nohup python3 /tmp/pinbuster.py > /tmp/pinbuster.out 2>&1 &
 disown
 
